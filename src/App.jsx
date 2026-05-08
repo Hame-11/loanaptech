@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Faq from './components/Faq';
 import SignUp from './pages/SignUp';
+import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Applyloan from './pages/Applyloan';
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/apply" element={<Applyloan />} />
         </Routes>

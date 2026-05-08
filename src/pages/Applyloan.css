@@ -1,4 +1,4 @@
-.apply-container {
+.apply-loan-container {
   max-width: 700px;
   margin: 60px auto;
   padding: 0 20px;
@@ -11,6 +11,7 @@
   padding: 40px;
   box-shadow: 0 15px 40px rgba(0,0,0,0.08);
   border: 1px solid #e2e8f0;
+  margin-top: 40px;
 }
 
 .apply-title {

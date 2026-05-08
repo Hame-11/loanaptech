@@ -29,7 +29,6 @@ function Navbar() {
       setUser(null);
     } finally  {
       setLoading(false);
-      navigate("/");
     }
     
   };
@@ -68,7 +67,7 @@ function Navbar() {
           </li>
 
           <li>
-            <Link to="/loans" className={isActive("/loans") ? "nav-link active" : "nav-link"}>
+            <Link to="/apply" className={isActive("/apply") ? "nav-link active" : "nav-link"}>
               Loans
             </Link>
           </li>
@@ -146,7 +145,7 @@ function Navbar() {
           Home
         </Link>
 
-        <Link to="/loans" className="mobile-link" onClick={() => setMobileMenuOpen(false)}>
+        <Link to="/apply" className="mobile-link" onClick={() => setMobileMenuOpen(false)}>
           Loans
         </Link>
 
